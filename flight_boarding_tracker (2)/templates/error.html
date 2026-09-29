@@ -1,0 +1,1 @@
+{% extends 'base.html' %}{% block title %}Error{% endblock %}{% block page_heading %}Something went wrong{% endblock %}{% block content %}<section class="card empty-state"><h2>Unable to complete the request</h2><p>{{ message }}</p><a class="btn primary" href="{{ url_for('dashboard') }}">Back to Dashboard</a></section>{% endblock %}
