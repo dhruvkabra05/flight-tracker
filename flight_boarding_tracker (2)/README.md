@@ -122,20 +122,6 @@ The DAA algorithms are manually implemented. Python's built-in `sort()` and Java
 
 The Flask endpoint `/api/tracking` calls Aviationstack's `/v1/flights` endpoint using the configured access key and a `flight_iata` filter. The frontend only receives returned flight fields. API failures are handled without stopping the rest of the website.
 
-## Viva questions
-
-1. Why did you choose Quick Sort for passenger sorting?
-2. What is a pivot in Quick Sort?
-3. Explain partitioning.
-4. Why is Quick Sort called divide and conquer?
-5. What are the best, average and worst-case complexities?
-6. How does Quick Sort differ from Merge Sort?
-7. Why is built-in sorting not used in the DAA demonstration?
-8. How is priority boarding represented in the database?
-9. Why does Binary Search require sorted data?
-10. What is the difference between Linear Search and Binary Search?
-11. How are comparisons and swaps counted?
-12. Why can measured execution time change between computers?
 13. Why is the Aviationstack key stored in `.env` instead of JavaScript?
 14. How does Flask communicate with SQLite?
 15. What happens when the Aviationstack API is unavailable?
