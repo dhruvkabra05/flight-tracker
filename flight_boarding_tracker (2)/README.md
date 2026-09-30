@@ -122,11 +122,4 @@ The DAA algorithms are manually implemented. Python's built-in `sort()` and Java
 
 The Flask endpoint `/api/tracking` calls Aviationstack's `/v1/flights` endpoint using the configured access key and a `flight_iata` filter. The frontend only receives returned flight fields. API failures are handled without stopping the rest of the website.
 
-13. Why is the Aviationstack key stored in `.env` instead of JavaScript?
-14. How does Flask communicate with SQLite?
-15. What happens when the Aviationstack API is unavailable?
-16. What is the purpose of CRUD in the flight and passenger modules?
-17. How is boarding progress calculated?
-18. Why are the same records used when comparing sorting algorithms?
-19. What is the role of SQLite in this project?
-20. Which parts of the project demonstrate DAA directly?
+
